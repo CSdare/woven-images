@@ -4,7 +4,12 @@
   "description": "Image processing app built using WovenJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test",
+    "start": "node server/server.js",
+    "start-dev": "nodemon server/server.js",
+    "build": "webpack",
+    "build-dev": "webpack -w",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",

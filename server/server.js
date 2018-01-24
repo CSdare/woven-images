@@ -11,6 +11,7 @@ woven.configure(functions, { alwaysClient: true });
 const port = 4000;
 const app = express();
 
+app.use(express.static(__dirname + '/../'));
 app.use(express.static(__dirname + '/../build/'));
 app.use(bodyParser.json({ limit: '16mb' }));
 app.use(bodyParser.urlencoded({ limit: '16mb', extended: true }));
