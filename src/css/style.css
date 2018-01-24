@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+/* HEADER ***************************/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #040926;
+  color: white;
+}
+
+header h1 {
+  font-weight: 200;
+}
+
+#wovenjs-logo,
+#dare-logo,
+h1 {
+  flex: 1;
+}
+
+#wovenjs-logo {
+  height: 85px;
+  padding: 10px;
+}
+
+#dare-logo {
+  height: 50px;
+}
+
+/* FORMS *************************/
+.file-form,
+.process,
+.spec-display {
+  background-color: #005781;
+  padding: 10px;
+  color: white;
+}
+
+.process,
+.file-form {
+  text-align: center;
+}
+
+.file-form {
+  background-color: #a2a0a0;
+}
+
+button {
+  background: linear-gradient(to bottom, #1e2342 0%,#040926 100%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  font-size: 0.8rem;
+  color: white;
+  padding: 5px 14px;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
+  transition: all ease-in-out 0.4s;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #272d5c 0%,#081246 100%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+.file-form input {
+  background-color: #c4c4c4;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+
+
+.spec-display ul {
+  font-size: 0.7rem;
+  padding: 6px 0;
+  margin: 0;
+}
+
+.spec-display li {
+  list-style: none;
+}
+
+/* IMAGES ****************************/
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4px;
+}
+
+.image img {
+  margin: 4px;
+  max-height: 150px;
+}

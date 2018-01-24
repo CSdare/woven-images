@@ -1,0 +1,42 @@
+{
+  "name": "woven-images",
+  "version": "1.0.0",
+  "description": "Image processing app built using WovenJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSdare/woven-images.git"
+  },
+  "author": "Team DARE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSdare/woven-images/issues"
+  },
+  "homepage": "https://github.com/CSdare/woven-images#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "canvas": "^1.6.9",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "woven-js": "^0.3.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "nodemon": "^1.14.11",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "worker-loader": "^1.1.0",
+    "woven-loader": "^1.0.3"
+  }
+}
