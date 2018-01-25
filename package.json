@@ -29,7 +29,7 @@
     "mongoose": "^5.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "woven-js": "^0.3.10"
+    "woven-js": "^0.3.12"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
