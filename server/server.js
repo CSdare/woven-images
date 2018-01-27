@@ -6,7 +6,7 @@ const imageController = require('./db/imageController');
 const woven = require('woven-js');
 const functions = require('../woven_functions/functions')
 
-woven.configure(functions);
+woven.configure(functions, { alwaysClient: true });
 
 const port = 4000;
 const app = express();
